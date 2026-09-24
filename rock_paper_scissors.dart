@@ -10,7 +10,7 @@ const Map<String, String> pildiMap = {
   'scissors': 'paper',
 };
 
-/// Asks the users names who wants to play.
+/// Asks the users names who wants to playy.
 String getPlayerNgalan(String defaultNgalan) {
   stdout.write('Enter $defaultNgalan name: ');
   String? input = stdin.readLineSync();
@@ -143,3 +143,4 @@ void main() {
     playerTwoScore,
   );
 }
+
